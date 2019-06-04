@@ -5,7 +5,7 @@ require 'sinatra/activerecord'
 require 'json'
 require 'pry'
 
-Dir.glob('app/models/*.rb').each { |r| load r}
+Dir.glob('models/*.rb').each { |r| load r}
 
 class FleetManager < Sinatra::Base
   configure do

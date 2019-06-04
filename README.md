@@ -6,6 +6,13 @@
 * postgresql (9.4+)
 
 ## Setup instructions
+
+* Navigate to server_code directory
+
+```
+cd server_code
+```
+
 * Install dependencies
 
 ```

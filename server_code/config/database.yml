@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  database: os_fleet_manager_development
+  pool: 10
+  encoding: unicode
+  username: rama2520
+  password: password
+
+test:
+  adapter: postgresql
+  database: os_fleet_manager_test
+  username: rama2520
+  encoding: unicode
+  password: password
+  host: 127.0.0.1
